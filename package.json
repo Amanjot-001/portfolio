@@ -1,8 +1,8 @@
 {
   "name": "portfolio2.0",
   "version": "1.0.0",
-  "description": "\"Aman's portfolio\"",
-  "main": "index.html",
+  "description": "Aman's portfolio",
+  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -24,6 +24,7 @@
     "react-router-dom": "^6.20.1"
   },
   "devDependencies": {
-    "parcel": "^2.10.3"
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
   }
 }
