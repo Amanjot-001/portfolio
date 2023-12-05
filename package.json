@@ -1,0 +1,29 @@
+{
+  "name": "portfolio2.0",
+  "version": "1.0.0",
+  "description": "\"Aman's portfolio\"",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amanjot-001/portfolio2.0.git"
+  },
+  "author": "Amanjot Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amanjot-001/portfolio2.0/issues"
+  },
+  "homepage": "https://github.com/Amanjot-001/portfolio2.0#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}
