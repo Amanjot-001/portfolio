@@ -14,6 +14,22 @@ export default {
       fontFamily: {
         consolasBold: ['consolas-bold', 'monospace'],
         bitter: ['bitter', 'sans-serif'],
+        default: [
+          'system-ui',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          'Segoe UI',
+          'Roboto',
+          'Oxygen',
+          'Ubuntu',
+          'Cantarell',
+          'Open Sans',
+          'Helvetica Neue',
+          'sans-serif',
+        ],
+      },
+      backgroundImage: {
+        'stripe-pattern': "url('./src/assets/images/bg.svg')",
       }
     },
   },
