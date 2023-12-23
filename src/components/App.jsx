@@ -5,7 +5,7 @@ import Mid from './Mid';
 
 function App() {
   return (
-    <div className="app relative flex flex-col w-full bg-bgLight px-24 py-40">
+    <div className="app flex flex-col w-full bg-bgLight px-24 py-40">
       <Header />
       <Intro />
       <Mid />
