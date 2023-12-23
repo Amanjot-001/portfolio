@@ -1,0 +1,12 @@
+.scroll p::after {
+    content: "";
+    transform-origin: bottom center;
+    position: absolute;
+    width: 1px;
+    height: 30vh;
+    left: 50%;
+    top: 200%;
+    background: #0f1b61;
+    opacity: .45;
+    animation: vLineIn 1s ease-in-out 1.5s backwards;
+}
