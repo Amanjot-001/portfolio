@@ -14,6 +14,7 @@ export default {
       fontFamily: {
         consolasBold: ['consolas-bold', 'monospace'],
         bitter: ['bitter', 'sans-serif'],
+        samarkan: ['samarkan', 'sans-serif'],
         default: [
           'system-ui',
           '-apple-system',

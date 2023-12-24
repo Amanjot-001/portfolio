@@ -2,6 +2,7 @@ import '../assets/styles/app.css'
 import Header from './Header';
 import Intro from './Intro';
 import Mid from './Mid';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Intro />
       <Mid />
+      <Projects />
     </div>
   )
 }
