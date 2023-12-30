@@ -1,15 +1,18 @@
 import logo from '../../assets/images/main.png'
+import { NavLink } from 'react-router-dom';
 
-const Menu = () => {
+const MenuBtn = () => {
     return (
-        <div className="menu fixed top-16 left-16 flex justify-center items-center font-consolasBold gap-4 z-[1]">
+        <div className="menu-btn fixed top-16 left-16 flex justify-center items-center font-consolasBold gap-4 z-[1]">
             <img className='flex w-14' src={logo} alt="mountain" />
             <span className='w-[1px] h-8 bg-primary opacity-50'></span>
-            <p className='text-base text-primary tracking-[0.2em] uppercase cursor-pointer hover:scale-110 ease duration-300'>
-                menu
-            </p>
+            <NavLink to='/menu'>
+                <p className='text-base text-primary tracking-[0.2em] uppercase cursor-pointer hover:scale-110 ease duration-300'>
+                    menu
+                </p>
+            </NavLink>
         </div>
     )
 }
 
-export default Menu;
+export default MenuBtn;

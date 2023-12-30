@@ -1,10 +1,10 @@
-import Menu from '../menu/MenuBtn';
+import MenuBtn from '../menu/MenuBtn';
 import ContactBtn from '../contact/ContactBtn';
 
 const Header = () => {
     return (
         <>
-            <Menu />
+            <MenuBtn />
             <ContactBtn />
         </>
     )
