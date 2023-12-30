@@ -4,7 +4,7 @@ import Header from './home/Header';
 
 function App() {
   return (
-    <div className="app flex flex-col w-full">
+    <div className="app flex flex-col w-full grow">
       <Header />
       <Outlet />
     </div>
