@@ -5,7 +5,7 @@ const Menu = () => {
         <div className="menu fixed top-16 left-16 flex justify-center items-center font-consolasBold gap-4 z-[1]">
             <img className='flex w-14' src={logo} alt="mountain" />
             <span className='w-[1px] h-8 bg-primary opacity-50'></span>
-            <p className='text-base text-primary tracking-[0.2em] uppercase cursor-pointer'>
+            <p className='text-base text-primary tracking-[0.2em] uppercase cursor-pointer hover:scale-110 ease duration-300'>
                 menu
             </p>
         </div>
