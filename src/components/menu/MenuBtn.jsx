@@ -1,4 +1,4 @@
-import logo from '../../assets/images/main.png'
+import logo from '../../assets/images/header/main.png'
 import { NavLink } from 'react-router-dom';
 
 const MenuBtn = () => {

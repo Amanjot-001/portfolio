@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         bgLight: '#f4f9fc',
+        bgMenu: '#aadcec',
         primary: '#0f1b61',
         secondary: '#7f00e0'
       },
