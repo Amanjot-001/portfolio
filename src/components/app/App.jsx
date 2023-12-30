@@ -1,4 +1,4 @@
-import '../assets/styles/app.css'
+import '../../assets/styles/app.css'
 import Header from './Header';
 import Intro from './Intro';
 import Mid from './Mid';

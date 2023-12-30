@@ -1,4 +1,4 @@
-import message from '../assets/images/conversation.png'
+import message from '../../assets/images/conversation.png'
 
 const ContactBtn = () => {
     return (

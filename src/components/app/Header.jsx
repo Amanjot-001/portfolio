@@ -1,5 +1,5 @@
-import Menu from './MenuBtn';
-import ContactBtn from './ContactBtn';
+import Menu from '../menu/MenuBtn';
+import ContactBtn from '../contact/ContactBtn';
 
 const Header = () => {
     return (

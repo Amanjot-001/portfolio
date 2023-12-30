@@ -1,4 +1,4 @@
-import logo from '../assets/images/main.png'
+import logo from '../../assets/images/main.png'
 
 const Menu = () => {
     return (

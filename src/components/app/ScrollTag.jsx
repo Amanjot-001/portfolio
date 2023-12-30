@@ -1,4 +1,4 @@
-import '../assets/styles/scrollTag.css'
+import '../../assets/styles/scrollTag.css'
 
 const ScrollTag = () => {
     return (
