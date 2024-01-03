@@ -4,7 +4,9 @@ import { NavLink } from 'react-router-dom';
 const MenuBtn = () => {
     return (
         <div className="menu-btn fixed top-16 left-16 flex justify-center items-center font-consolasBold gap-4 z-[1]">
-            <img className='flex w-14' src={logo} alt="mountain" />
+            <NavLink to='/' >
+                <img className='flex w-14' src={logo} alt="programmer logo" />
+            </NavLink>
             <span className='w-[1px] h-8 bg-primary opacity-50'></span>
             <NavLink to='/menu'>
                 <p className='text-base text-primary tracking-[0.2em] uppercase cursor-pointer hover:scale-110 ease duration-300'>
