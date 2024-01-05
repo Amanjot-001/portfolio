@@ -9,8 +9,10 @@ export default {
       colors: {
         bgLight: '#f4f9fc',
         bgMenu: '#aadcec',
+        bgAbout: '#f7f8f9',
         primary: '#0f1b61',
-        secondary: '#7f00e0'
+        secondary: '#7f00e0',
+        about: '#1c494c'
       },
       fontFamily: {
         consolasBold: ['consolas-bold', 'monospace'],
