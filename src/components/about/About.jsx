@@ -54,9 +54,28 @@ const About = () => {
           ))}
         </ul>
       </div>
+      <div className='achievements flex flex-col justify-center gap-8 text-about font-bitter'>
+        <h1 className='text-6xl font-bold'>Achievements</h1>
+        <ul className='list-disc flex flex-col justify-center gap-2 ms-8 w-1/2'>
+          <li>
+            Solved <span className='font-bold'>400+</span> coding questions on various platforms like <span className='font-bold'>Leetcode</span>
+            , <span className='font-bold'>Codeforces</span>, <span className='font-bold'>Cses</span>, etc. Showing expertise in problem solving capabilities.
+          </li>
+          <li>
+            I have successfully completed several <span className='font-bold'>full-stack</span> projects during my college life and actively contributed
+            to the learning experiences of fellow students by providing assistance and support in their endeavors."
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
 
 export default About;
+ 
+ 
+ 
+ 
+ 
+ 
  
