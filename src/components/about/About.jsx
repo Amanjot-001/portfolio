@@ -1,4 +1,5 @@
 import ScrollTag from '../home/ScrollTag'
+import skills from '../../utils/about/skills.js'
 
 const About = () => {
   return (
@@ -15,18 +16,33 @@ const About = () => {
       <div className='w-1/4 relative'>
         <ScrollTag />
       </div>
-      <div className='skills flex'>
-        <div className='Languages flex'>
-          <div>
-            Javascript
-            <span>
-              <img src='' alt='tech logo' />
-            </span>
-          </div>
+      <div className='skills flex flex-col justify-center gap-8 text-about mt-[40vh] font-bitter'>
+        <div className='text-6xl font-bold'>
+          Skills
+        </div>
+        <div className='flex flex-col justify-center items-start gap-8'>
+          {skills.map((item, index) => (
+            <div key={index} className='flex flex-col justify-center items-start gap-4'>
+              <div className='title text-4xl'>
+                {item.title}
+              </div>
+              <div className='flex flex-wrap items-center gap-8 ms-8'>
+                {item.stack.map((tech, idx) => (
+                  <div key={idx} className='flex flex-col justify-center font-mono text-sm items-start gap-4'>
+                    <span className='w-8'>
+                      <img src={tech.image} alt='tech logo' />
+                    </span>
+                    {tech.name}
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
   );
 }
 
-export default About;
+export default About;  
+ 

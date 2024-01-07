@@ -18,6 +18,7 @@ export default {
         consolasBold: ['consolas-bold', 'monospace'],
         bitter: ['bitter', 'sans-serif'],
         samarkan: ['samarkan', 'sans-serif'],
+        mono: ['monospace', 'sans-serif'],
         default: [
           'system-ui',
           '-apple-system',

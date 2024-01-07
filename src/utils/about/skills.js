@@ -28,7 +28,7 @@ const skills = [
         "image": ts,
       },
       {
-        "name": "C",
+        "name": "C Programming",
         "image": c,
       },
       {
