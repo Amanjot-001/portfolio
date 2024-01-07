@@ -1,5 +1,6 @@
 import ScrollTag from '../home/ScrollTag'
 import skills from '../../utils/about/skills.js'
+import education from '../../utils/about/education.js'
 
 const About = () => {
   return (
@@ -17,9 +18,9 @@ const About = () => {
         <ScrollTag />
       </div>
       <div className='skills flex flex-col justify-center gap-8 text-about mt-[40vh] font-bitter'>
-        <div className='text-6xl font-bold'>
+        <h1 className='text-6xl font-bold'>
           Skills
-        </div>
+        </h1>
         <div className='flex flex-col justify-center items-start gap-8'>
           {skills.map((item, index) => (
             <div key={index} className='flex flex-col justify-center items-start gap-4'>
@@ -40,9 +41,22 @@ const About = () => {
           ))}
         </div>
       </div>
+      <div className='education flex flex-col justify-center gap-8 text-about font-bitter'>
+        <h1 className='text-6xl font-bold'>Education</h1>
+        <ul className='flex flex-col justify-center gap-4 list-disc ms-8'>
+          {education.map((item, index) => (
+            <li key={index}>
+              <div className='degree text-xl font-bold'>{item.degree}</div>
+              <div className='branch'>{item.branch}</div>
+              <div className='duration'>{item.duration}</div>
+              <div className='gpa'>{item.gpa}</div>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
 
-export default About;  
+export default About;
  
