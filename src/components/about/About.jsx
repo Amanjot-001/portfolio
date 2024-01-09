@@ -10,9 +10,10 @@ const About = () => {
       </div>
       <div className="w-16 h-[2px] bg-[#73cadc]"></div>
       <div className="font-bitter text-about text-xl w-1/2 leading-relaxed">
-        Enthusiastic computer science engineering student deeply passionate about <span className="font-bold"> programming </span>,
-        <span className="font-bold"> web development </span>, and <span className="font-bold"> software engineering </span>.
-        Join me as I unveil a world of skills and projects in the realm of technology.
+        Welcome to my digital space! I'm an enthusiastic computer science engineering student
+        , fueled by a profound passion for <span className='font-bold'>programming</span> , <span className='font-bold'>web development</span>, and <span className='font-bold'>software engineering</span>. 
+        As I unveil a world of skills and projects in the realm of technology, my true excitement lies in the art of problem-solving and embracing new challenges. <br /><br />
+        Join me on this exhilarating journey where every obstacle is an opportunity to learn and innovate. Together, let's explore the boundless possibilities that the world of technology has to offer!
       </div>
       <div className='w-1/4 relative'>
         <ScrollTag />
@@ -72,10 +73,3 @@ const About = () => {
 }
 
 export default About;
- 
- 
- 
- 
- 
- 
- 
