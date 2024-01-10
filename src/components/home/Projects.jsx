@@ -11,9 +11,9 @@ const Projects = () => {
         From time to time I like to build some interesting projects which help me wider my programming capabilities.
       </div>
       {project.map((item, index) => (
-        <div key={index} className="flex flex-col">
+        <div key={index} className="flex flex-col w-full">
           <ProjectCard data={item} />
-          <div className="w-full h-[1px] bg-[#73cadc]"></div>
+          <div className="w-full h-[2px] bg-[#73cadc] opacity-30"></div>
         </div>
       ))}
     </div>

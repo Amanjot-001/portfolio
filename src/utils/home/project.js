@@ -2,6 +2,7 @@ import overclock from '../../assets/images/project/overclock.png'
 import vyzon from '../../assets/images/project/vyzon.png'
 import semicolon from '../../assets/images/project/semicolon.png'
 import codeCon from '../../assets/images/project/code-convertor.png'
+import galaxy from '../../assets/images/project/galaxy.png'
 
 const project = [
   {
@@ -16,41 +17,41 @@ const project = [
     "code": "https://github.com/Amanjot-001/overclock",
   },
   {
-    "name": "Overclock",
-    "image": overclock,
+    "name": "Vyzon",
+    "image": vyzon,
     "desc": [
-      "Developed a responsive gaming e-commerce platform using React with real-time game data APIs.",
-      "Integrated Redux for shopping cart and wishlist functionalities.",
-      "Optimized performance and scalability with Node, Express, and MongoDB for the backend.",
+      "Made my own programming language from scratch with support for basic operations.",
+      "Build an interpreter for it.",
+      "Designed and implemented tokenizer and parser for the language.",
     ],
-    "web": "https://overclock-game.vercel.app/",
-    "code": "https://github.com/Amanjot-001/overclock",
+    "web": "https://vyzon.netlify.app/",
+    "code": "https://github.com/Amanjot-001/vyzon",
   },
   {
-    "name": "Overclock",
-    "image": overclock,
+    "name": "Semicolon",
+    "image": semicolon,
     "desc": [
-      "Developed a responsive gaming e-commerce platform using React with real-time game data APIs.",
-      "Integrated Redux for shopping cart and wishlist functionalities.",
-      "Optimized performance and scalability with Node, Express, and MongoDB for the backend.",
+      "Created a user-friendly touch-typing platform for students, especially beginners.",
+      "Engineered a flexible typing algorithm with graphical progress tracking for effective learning.",
+      "Developed a database for cataloged study material, facilitating exam preparation and typing practice.",
     ],
-    "web": "https://overclock-game.vercel.app/",
-    "code": "https://github.com/Amanjot-001/overclock",
+    "web": "https://semicolon23.onrender.com/",
+    "code": "https://github.com/Amanjot-001/Semicolon",
   },
   {
-    "name": "Overclock",
-    "image": overclock,
+    "name": "Galaxy",
+    "image": galaxy,
     "desc": [
-      "Developed a responsive gaming e-commerce platform using React with real-time game data APIs.",
-      "Integrated Redux for shopping cart and wishlist functionalities.",
-      "Optimized performance and scalability with Node, Express, and MongoDB for the backend.",
+      "Created an inclusive website for web development learning, from beginners to advanced users.",
+      "Implemented real-time code editors within a question-based framework for engaging and hands-on learning.",
+      "Upgraded the platform with project showcases, plagiarism checks, and ChatGPT integration for personalized feedback and monetization potential.",
     ],
-    "web": "https://overclock-game.vercel.app/",
-    "code": "https://github.com/Amanjot-001/overclock",
+    //    "web": "https://overclock-game.vercel.app/",
+    "code": "https://github.com/Amanjot-001/Galaxy-main",
   },
   {
-    "name": "Overclock",
-    "image": overclock,
+    "name": "Code-converter",
+    "image": codeCon,
     "desc": [
       "Developed a responsive gaming e-commerce platform using React with real-time game data APIs.",
       "Integrated Redux for shopping cart and wishlist functionalities.",
